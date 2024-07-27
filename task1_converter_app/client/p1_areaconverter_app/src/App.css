@@ -1,0 +1,54 @@
+*{
+font-family:Century;
+font-size:1.6vw;
+}
+
+body
+{
+background-image: url(area.jpg);
+background-size: cover; /* Adjust as needed */
+background-repeat: no-repeat;
+}
+
+form{
+border-style: groove;
+width:88%;
+ margin: 50px auto;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+font-size:2vw;
+color:black;
+background-color:white;
+width:30%;
+padding:0.3%;
+border: 1px solid black;
+border-radius: 5px;
+}
+
+h2{
+border-style: groove;
+width:60%;
+color:black;
+border-radius:20px;
+background-color:white;
+padding:1%;
+}
+
+.btn{
+margin:1%;
+border-radius:10px;
+background-color:white;
+color:black;
+font-weight:bold;
+padding:0.5%;
+}
+
+.btn:hover{
+color:white;
+background-color:black;
+}

@@ -1,0 +1,104 @@
+*{
+font-family:Century;
+font-size:1.6vw;
+}
+.container{
+opacity:0.9;
+font-weight:bold;
+}
+body
+{
+background-size: cover; /* Adjust as needed */
+background-repeat: no-repeat;
+font-weight:bold;
+background-image:url(bmi.jpg);
+}
+
+form{
+border-style: groove;
+width:50%;
+background-color:white;
+color:black;
+ margin: 50px auto;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.g{
+display:flex;
+flex-wrap:wrap;
+margin-left:9%;
+gap:10px;
+margin-top:8%;
+}
+
+.ht{
+margin-top:-4%;
+margin-left:49%;
+}
+.wt{
+margin-top:-4.6%;
+margin-left:49%;
+}
+.age{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-top:10%;
+margin-left:9%;
+}
+
+.header{
+opacity:0.9;
+font-size:2vw;
+color:black;
+background-color:white;
+width:90%;
+margin:0.5%;
+border: 1px solid black;
+border-radius: 10px;
+}
+.header h3{
+padding:0%;
+margin:0%
+}
+.result{
+border-style: groove;
+width:50%;
+color:black;
+border-radius:20px;
+background-color:white;
+opacity:0.9;
+}
+img{
+width:20%;
+margin-right:70%;
+margin-top:1%;
+}
+.header h1,h3{
+margin-top:-15%;
+}
+.result h3,h4,h5,p{
+font-size:20px;
+margin:2%;
+}
+.result h4{
+color:red;
+}
+.result h5{
+color:green;
+}
+.btn{
+margin:1%;
+border-radius:10px;
+background-color:white;
+color:black;
+font-weight:bold;
+padding:0.5%;
+}
+
+.btn:hover{
+color:white;
+background-color:black;
+}
